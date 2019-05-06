@@ -1,0 +1,30 @@
+{
+  "name": "registration_using_mobile_verification",
+  "version": "1.0.0",
+  "description": "register using mobile verification in node js , mongoDB, express js",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node ./server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arihantjain1/register-using-mobile-verification.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arihantjain1/register-using-mobile-verification/issues"
+  },
+  "homepage": "https://github.com/Arihantjain1/register-using-mobile-verification#readme",
+  "dependencies": {
+    "ajv": "^6.10.0",
+    "ajv-errors": "^1.0.1",
+    "authy": "^1.4.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5"
+  }
+}

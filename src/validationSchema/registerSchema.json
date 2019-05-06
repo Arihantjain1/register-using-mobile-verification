@@ -1,0 +1,31 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "email",
+        "password",
+        "firstName",
+        "lastName",
+        "number"
+    ],
+    "properties": {
+        "email": {
+            "type": "string"
+        },
+        "password": {
+            "type": "string"
+        },
+        "firstName": {
+            "type": "string"
+        },
+        "lastName": {
+            "type": "string"
+        },
+        "number": {
+            "type": "string"
+        },
+        "country": {
+            "type": "string"
+        }
+    }
+}
